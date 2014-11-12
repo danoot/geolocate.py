@@ -9,6 +9,10 @@ It also lets you do this without defining a location for each of the 4294967295-
 
 usage:
 
-`import geolocate`
-`geo = geolocate.geolocate()`
-`location = geo.get(ip)`
+```
+import geolocate
+
+geo = geolocate.geolocate()
+#assume ip is some string with an IP in it
+location = geo.get(ip)
+```
